@@ -16,7 +16,7 @@
       --input-bg: #ffffff;
       --input-border: #aaaaaa;
       --progress-bg: #dddddd;
-      --today-bg: #d4f8d4;
+      --box-bg: #d4f8d4;
       --calendar-day-bg: #f5fbff;
       --calendar-header-bg: #d0ecff;
       --calendar-border: #dddddd;
@@ -24,78 +24,89 @@
       --highlight-border: #007bff;
       --highlight-bg: #cfe9ff;
       --handle-bg: #e0f0ff;
+      --card-border: #aaaaaa;
+      --card-border-width: 0px;
     }
     body.theme-dark {
       --bg:#1a1a2e;--toolbar:#16213e;--card:#0f3460;--card-shadow:rgba(0,0,0,.5);
       --accent:#e94560;--accent2:#f5a623;--text:#f0f0f0;--text-muted:#cccccc;
-      --input-bg:#1a1a3e;--input-border:#555577;--progress-bg:#333355;--today-bg:#1e4d2b;
+      --input-bg:#1a1a3e;--input-border:#555577;--progress-bg:#333355;--box-bg:#1e4d2b;
       --calendar-day-bg:#1a2a4a;--calendar-header-bg:#0f3460;--calendar-border:#334466;
       --entry-counter-bg:#2a2a5a;--highlight-border:#e94560;--highlight-bg:#2a1a3e;--handle-bg:#0a2040;
+      --card-border: #555577;
     }
     body.theme-green {
       --bg:#e8f5e9;--toolbar:#c8e6c9;--card:#fff;--accent:#43a047;--accent2:#66bb6a;
       --text:#1b5e20;--text-muted:#2e7d32;--input-bg:#f9fff9;--input-border:#a5d6a7;
-      --progress-bg:#dcedc8;--today-bg:#b9f6ca;--calendar-day-bg:#f1f8e9;
+      --progress-bg:#dcedc8;--box-bg:#b9f6ca;--calendar-day-bg:#f1f8e9;
       --calendar-header-bg:#c8e6c9;--calendar-border:#a5d6a7;--entry-counter-bg:#dcedc8;
       --highlight-border:#1b5e20;--highlight-bg:#b9f6ca;--handle-bg:#c8e6c9;
+      --card-border: #a5d6a7;
     }
     body.theme-purple {
       --bg:#ede7f6;--toolbar:#d1c4e9;--card:#fff;--accent:#7c4dff;--accent2:#b388ff;
       --text:#311b92;--text-muted:#4527a0;--input-bg:#f9f7ff;--input-border:#b39ddb;
-      --progress-bg:#d1c4e9;--today-bg:#e8d5ff;--calendar-day-bg:#f3e5f5;
+      --progress-bg:#d1c4e9;--box-bg:#e8d5ff;--calendar-day-bg:#f3e5f5;
       --calendar-header-bg:#d1c4e9;--calendar-border:#b39ddb;--entry-counter-bg:#ede7f6;
       --highlight-border:#7c4dff;--highlight-bg:#e8d5ff;--handle-bg:#d1c4e9;
+      --card-border: #b39ddb;
     }
     body.theme-sunset {
       --bg:#fff3e0;--toolbar:#ffe0b2;--card:#fff;--accent:#ff6f00;--accent2:#ff8f00;
       --text:#bf360c;--text-muted:#e64a19;--input-bg:#fff8f0;--input-border:#ffcc80;
-      --progress-bg:#ffe0b2;--today-bg:#ffe0b2;--calendar-day-bg:#fff8f0;
+      --progress-bg:#ffe0b2;--box-bg:#ffe0b2;--calendar-day-bg:#fff8f0;
       --calendar-header-bg:#ffcc80;--calendar-border:#ffb74d;--entry-counter-bg:#ffe0b2;
       --highlight-border:#ff6f00;--highlight-bg:#fff3e0;--handle-bg:#ffe0b2;
+      --card-border: #ffcc80;
     }
     body.theme-forest {
       --bg:#e0ede0;--toolbar:#b5d5b5;--card:#f5fff5;--accent:#2e7d32;--accent2:#558b2f;
       --text:#1b3a1b;--text-muted:#33691e;--input-bg:#f0faf0;--input-border:#81c784;
-      --progress-bg:#c8e6c9;--today-bg:#a5d6a7;--calendar-day-bg:#e8f5e9;
+      --progress-bg:#c8e6c9;--box-bg:#a5d6a7;--calendar-day-bg:#e8f5e9;
       --calendar-header-bg:#b5d5b5;--calendar-border:#81c784;--entry-counter-bg:#c8e6c9;
       --highlight-border:#2e7d32;--highlight-bg:#a5d6a7;--handle-bg:#b5d5b5;
+      --card-border: #81c784;
     }
     body.theme-ocean {
       --bg:#e0f7fa;--toolbar:#b2ebf2;--card:#fff;--accent:#00838f;--accent2:#00bcd4;
       --text:#006064;--text-muted:#00838f;--input-bg:#f0fdff;--input-border:#80deea;
-      --progress-bg:#b2ebf2;--today-bg:#80deea;--calendar-day-bg:#e0f7fa;
+      --progress-bg:#b2ebf2;--box-bg:#80deea;--calendar-day-bg:#e0f7fa;
       --calendar-header-bg:#b2ebf2;--calendar-border:#80deea;--entry-counter-bg:#b2ebf2;
       --highlight-border:#00838f;--highlight-bg:#b2ebf2;--handle-bg:#b2ebf2;
+      --card-border: #80deea;
     }
     body.theme-midnight {
       --bg:#0d0d1a;--toolbar:#12122a;--card:#1a1a35;--card-shadow:rgba(0,0,0,.7);
       --accent:#4f8afe;--accent2:#00c6ff;--text:#e8eaf6;--text-muted:#9fa8da;
-      --input-bg:#12122a;--input-border:#3f3f7a;--progress-bg:#1a1a35;--today-bg:#1a2a5a;
+      --input-bg:#12122a;--input-border:#3f3f7a;--progress-bg:#1a1a35;--box-bg:#1a2a5a;
       --calendar-day-bg:#12122a;--calendar-header-bg:#1a1a35;--calendar-border:#3f3f7a;
       --entry-counter-bg:#1a1a35;--highlight-border:#4f8afe;--highlight-bg:#1a2a5a;--handle-bg:#0a0a20;
+      --card-border: #3f3f7a;
     }
     body.theme-neon {
       --bg:#0a0a0a;--toolbar:#111;--card:#181818;--card-shadow:rgba(0,255,180,.15);
       --accent:#00ffb3;--accent2:#ff00ff;--text:#00ffb3;--text-muted:#ff00ff;
-      --input-bg:#0d0d0d;--input-border:#00ffb3;--progress-bg:#1a1a0a;--today-bg:#001a10;
+      --input-bg:#0d0d0d;--input-border:#00ffb3;--progress-bg:#1a1a0a;--box-bg:#001a10;
       --calendar-day-bg:#111;--calendar-header-bg:#001a10;--calendar-border:#00ffb3;
       --entry-counter-bg:#001a10;--highlight-border:#ff00ff;--highlight-bg:#1a001a;--handle-bg:#050505;
+      --card-border: #00ffb3;
     }
     body.theme-mocha {
       --bg:#f5ede0;--toolbar:#e8d5bb;--card:#fdf6ee;--accent:#7b4f2e;--accent2:#a0714f;
       --text:#3e1f00;--text-muted:#6d3b1e;--input-bg:#fff9f2;--input-border:#c9a882;
-      --progress-bg:#e8d5bb;--today-bg:#d4b896;--calendar-day-bg:#fdf6ee;
+      --progress-bg:#e8d5bb;--box-bg:#d4b896;--calendar-day-bg:#fdf6ee;
       --calendar-header-bg:#e8d5bb;--calendar-border:#c9a882;--entry-counter-bg:#e8d5bb;
       --highlight-border:#7b4f2e;--highlight-bg:#d4b896;--handle-bg:#e8d5bb;
+      --card-border: #c9a882;
     }
     body.theme-candy {
       --bg:#fff0f9;--toolbar:#ffd6f0;--card:#fff;--accent:#e040fb;--accent2:#f48fb1;
       --text:#880e4f;--text-muted:#ad1457;--input-bg:#fff5fc;--input-border:#f48fb1;
-      --progress-bg:#ffd6f0;--today-bg:#f8bbd0;--calendar-day-bg:#fff0f9;
+      --progress-bg:#ffd6f0;--box-bg:#f8bbd0;--calendar-day-bg:#fff0f9;
       --calendar-header-bg:#ffd6f0;--calendar-border:#f48fb1;--entry-counter-bg:#ffd6f0;
       --highlight-border:#e040fb;--highlight-bg:#f8bbd0;--handle-bg:#ffd6f0;
+      --card-border: #f48fb1;
     }
-
     /* ===== BASE ===== */
     * { box-sizing: border-box; }
     body, input, select, button, textarea {
@@ -106,6 +117,96 @@
       background: var(--bg);
       color: var(--text);
       overflow-x: hidden;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* ===== FALLING MONEY ANIMATION ===== */
+    @keyframes fall {
+      0% { transform: translateY(-150px) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+    }
+    .falling-money {
+      position: fixed;
+      font-size: 80px;
+      pointer-events: none;
+      animation: fall 2.5s ease-in forwards;
+      z-index: 9998;
+      top: -150px;
+    }
+
+    /* ===== FIREWORKS ANIMATION ===== */
+    @keyframes firework {
+      0% { transform: translate(0, 0) scale(1); opacity: 1; }
+      100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
+    }
+    .firework-particle {
+      position: absolute;
+      animation: firework 3s ease-out forwards;
+      font-size: 64px;
+    }
+
+    /* ===== CELEBRATION POPUP ===== */
+    .celebration-popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: linear-gradient(135deg, #FF0000, #FFA500, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+      padding: 80px 120px;
+      border-radius: 30px;
+      text-align: center;
+      z-index: 10001;
+      font-size: 96px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0 0 40px rgba(0,0,0,0.8);
+      animation: popupBounce 0.8s ease-out;
+      box-shadow: 0 0 100px rgba(255, 255, 0, 1), 0 0 200px rgba(255, 0, 0, 0.8);
+    }
+    @keyframes popupBounce {
+      0% { transform: translate(-50%, -50%) scale(0); }
+      50% { transform: translate(-50%, -50%) scale(1.2); }
+      100% { transform: translate(-50%, -50%) scale(1); }
+    }
+
+    /* ===== REMINDER POPUP ===== */
+    .reminder-popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      padding: 100px;
+      border-radius: 40px;
+      text-align: center;
+      z-index: 10002;
+      font-size: 72px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0 0 40px rgba(0,0,0,0.8);
+      min-width: 75vw;
+      max-width: 95vw;
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 150px rgba(255, 255, 0, 1);
+    }
+    .reminder-popup h1 {
+      font-size: 120px;
+      margin: 0 0 50px 0;
+      animation: pulse 1s infinite;
+    }
+    .reminder-popup p {
+      font-size: 60px;
+      margin: 30px 0;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
     }
 
     /* ===== TOOLBAR ===== */
@@ -167,11 +268,20 @@
       text-transform: uppercase; letter-spacing: 0.05em;
     }
     .dropdown-menu select,
-    .dropdown-menu input[type="range"] {
+    .dropdown-menu input[type="range"],
+    .dropdown-menu input[type="file"],
+    .dropdown-menu input[type="number"],
+    .dropdown-menu input[type="color"] {
       width: 100%; padding: 7px 10px;
       background: var(--input-bg); color: var(--text);
-      border: none; border-bottom: 1px solid var(--input-border);
+      border: 1px solid var(--input-border); 
+      border-radius: 3px;
       font-size: 13px; display: block;
+    }
+    .dropdown-menu input[type="color"] {
+      cursor: pointer;
+      height: 40px;
+      padding: 2px;
     }
 
     /* ===== FREE CANVAS ===== */
@@ -193,11 +303,21 @@
       resize: both;
       display: flex;
       flex-direction: column;
+      border: var(--card-border-width) solid var(--card-border);
     }
     .card.is-dragging {
       opacity: 0.82;
       box-shadow: 0 10px 35px var(--card-shadow);
       z-index: 1000 !important;
+    }
+    .card.hidden {
+      display: none !important;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
     }
     .card-handle {
       background: var(--handle-bg);
@@ -212,8 +332,19 @@
       align-items: center;
       gap: 6px;
       white-space: nowrap;
+      justify-content: space-between;
     }
     .card-handle:active { cursor: grabbing; }
+    .close-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0;
+      margin-left: auto;
+    }
+    .close-btn:hover { color: var(--text); }
     .card-content {
       padding: 10px 12px 12px;
       flex: 1 1 0;
@@ -230,8 +361,11 @@
       font-weight: bold;
       flex-shrink: 0;
     }
+    /* ===== INPUTS ===== */
     input[type="number"],
-    input[type="text"] {
+    input[type="text"],
+    input[type="date"],
+    input[type="time"] {
       width: 100%;
       padding: 5px;
       background: var(--input-bg);
@@ -239,6 +373,8 @@
       border: 1px solid var(--input-border);
       border-radius: 5px;
       flex-shrink: 0;
+      font-size: 1em;
+      font-family: inherit;
     }
     label.field-label {
       font-size: 0.85em;
@@ -246,6 +382,34 @@
       margin-bottom: -4px;
       flex-shrink: 0;
     }
+    /* ===== PLATFORM SELECTOR ===== */
+    .platform-selector {
+      display: flex;
+      gap: 5px;
+      flex-shrink: 0;
+    }
+    .platform-selector select,
+    .platform-selector input {
+      flex: 1;
+      padding: 5px;
+      background: var(--input-bg);
+      color: var(--text);
+      border: 1px solid var(--input-border);
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    .platform-selector button {
+      padding: 5px 10px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    .platform-selector button:hover { opacity: 0.8; }
+    /* ===== ADD BUTTON ===== */
     .add-btn {
       width: 80%;
       min-height: 30px;
@@ -259,6 +423,7 @@
       align-self: center;
       margin-top: 10px;
     }
+    /* ===== PROGRESS ===== */
     .progress-container {
       background: var(--progress-bg);
       border-radius: 10px;
@@ -283,6 +448,7 @@
       color: var(--text);
       flex-shrink: 0;
     }
+    /* ===== TODAY ===== */
     .today-flex {
       display: flex;
       justify-content: space-between;
@@ -290,9 +456,10 @@
       gap: 10px;
       flex: 1 1 auto;
       min-height: 0;
+      flex-wrap: wrap;
     }
-    .today-total-box, .avg-box {
-      background: var(--today-bg);
+    .today-total-box, .avg-box, .time-box {
+      background: var(--box-bg);
       padding: 8px 12px;
       border-radius: 8px;
       display: flex;
@@ -300,6 +467,7 @@
       justify-content: center;
       align-items: center;
       flex: 1;
+      min-width: 80px;
     }
     .big-num {
       font-size: clamp(18px, 4vw, 36px);
@@ -311,6 +479,7 @@
       color: var(--text-muted);
       font-weight: bold;
     }
+    /* ===== ENTRY COUNTER ===== */
     .entry-header {
       display: flex;
       justify-content: space-between;
@@ -325,6 +494,7 @@
       padding: 3px 8px;
       border-radius: 6px;
     }
+    /* ===== MONTHLY / YEARLY ===== */
     .monthly-grid {
       display: flex;
       flex-direction: column;
@@ -332,7 +502,7 @@
       flex: 1 1 auto;
     }
     .money-row {
-      background: var(--today-bg);
+      background: var(--box-bg);
       border-radius: 8px;
       padding: 8px 12px;
       display: flex;
@@ -349,22 +519,8 @@
       margin-top: 8px;
       text-align: center;
     }
-    #card-lastentry {
-      left: 680px;
-      top: 20px;
-      width: 300px;
-      height: 100px;
-    }
-    #card-lastentry h2 {
-      font-size: 1.2em;
-      font-weight: bold;
-      margin: 0;
-      padding: 0 0 8px 0;
-    }
-    #lastEntryDisplay {
-      font-size: 1.2em;
-      font-weight: bold;
-    }
+
+    /* ===== CALENDAR ===== */
     .calendar-wrapper {
       flex: 1 1 auto;
       min-height: 0;
@@ -385,6 +541,17 @@
       white-space: pre-line;
       color: var(--text);
       overflow: hidden;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .calendar-day:hover {
+      background: var(--highlight-bg);
+      border-color: var(--highlight-border);
+      transform: scale(1.05);
+    }
+    .calendar-day.holiday {
+      background: #ffcccc;
+      font-weight: bold;
     }
     .calendar-header {
       font-weight: bold;
@@ -392,40 +559,289 @@
       background: var(--calendar-header-bg);
       font-size: 12px;
       padding: 4px 2px;
+      cursor: default;
+    }
+    .calendar-day.header:hover {
+      background: var(--calendar-header-bg);
+      transform: none;
     }
     .today-highlight {
       border: 2px solid var(--highlight-border);
       background: var(--highlight-bg);
     }
+
+    /* ===== CHART ===== */
     .chart-wrapper {
       flex: 1 1 auto;
       min-height: 0;
       position: relative;
     }
     #chart { width: 100% !important; height: 100% !important; }
+
     #card-goal h2 {
       font-size: 1.2em;
       font-weight: bold;
       margin: 0 0 10px 0;
     }
+
+    /* ===== ENTRY LOG ===== */
+    .entry-log-list {
+      max-height: 300px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .entry-log-item {
+      background: var(--input-bg);
+      padding: 8px 10px;
+      border-radius: 5px;
+      border: 1px solid var(--input-border);
+      font-size: 0.9em;
+      color: var(--text);
+      white-space: normal;
+      word-break: break-word;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .entry-log-item-time {
+      font-size: 0.8em;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .entry-log-item-content {
+      flex: 1;
+    }
+    .entry-delete-btn {
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.8em;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .entry-delete-btn:hover { background: #ff4444; }
+
+    /* ===== CALENDAR MONTH SELECTOR ===== */
+    .calendar-month-selector {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+    .calendar-month-selector select {
+      flex: 1;
+      padding: 5px;
+      background: var(--input-bg);
+      color: var(--text);
+      border: 1px solid var(--input-border);
+      border-radius: 5px;
+    }
+
+    /* ===== PLATFORM TOTALS ===== */
+    .platform-total-item {
+      background: var(--box-bg);
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 8px;
+      flex-shrink: 0;
+    }
+    .platform-name {
+      font-weight: bold;
+      font-size: 0.95em;
+      color: var(--text);
+      margin-bottom: 5px;
+    }
+    .platform-stats {
+      display: flex;
+      gap: 10px;
+      font-size: 0.85em;
+    }
+    .platform-stat {
+      flex: 1;
+      text-align: center;
+    }
+    .platform-stat-label {
+      color: var(--text-muted);
+      font-size: 0.75em;
+      margin-bottom: 2px;
+    }
+    .platform-stat-value {
+      font-weight: bold;
+      color: var(--text);
+    }
+
+    /* ===== MOTIVATIONAL ===== */
+    .quote-box {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      flex-shrink: 0;
+    }
+
+    /* ===== COLOR SWATCHES ===== */
+    .color-swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      width: 100%;
+      padding: 7px 10px;
+    }
+    .color-swatch {
+      width: 100%;
+      height: 30px;
+      border-radius: 3px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .color-swatch:hover {
+      transform: scale(1.05);
+      border-color: var(--text);
+    }
+
+    /* ===== REMINDER MODAL ===== */
+    .reminder-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      z-index: 9500;
+      justify-content: center;
+      align-items: center;
+    }
+    .reminder-modal.show {
+      display: flex;
+    }
+    .reminder-modal-content {
+      background: var(--card);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 600px;
+      width: 90%;
+      color: var(--text);
+    }
+    .reminder-modal-content h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    .reminder-modal-content label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .reminder-modal-content input,
+    .reminder-modal-content textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid var(--input-border);
+      border-radius: 5px;
+      background: var(--input-bg);
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+    }
+    .reminder-modal-content textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    .reminder-modal-content button {
+      padding: 12px 24px;
+      margin: 10px 5px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .reminder-modal-content button:hover { opacity: 0.8; }
+
+    /* ===== GOAL CONFIRMATION MODAL ===== */
+    .goal-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      z-index: 9500;
+      justify-content: center;
+      align-items: center;
+    }
+    .goal-modal.show { display: flex; }
+    .goal-modal-content {
+      background: var(--card);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 400px;
+      width: 90%;
+      color: var(--text);
+      text-align: center;
+    }
+    .goal-modal-content h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    .goal-modal-content p {
+      font-size: 16px;
+      margin: 15px 0;
+    }
+    .goal-modal-content button {
+      padding: 12px 24px;
+      margin: 10px 5px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .goal-modal-content button:hover { opacity: 0.8; }
   </style>
 </head>
 <body>
 
+<!-- TOOLBAR -->
 <div class="toolbar">
   <div class="dropdown" id="dd-file">
     <button class="dropdown-btn" onclick="toggleMenu('file')">File ▾</button>
     <div class="dropdown-menu" id="menu-file">
       <button class="menu-btn" onclick="saveLocal()">💾 Save</button>
-      <button class="menu-btn" onclick="saveAsFile()">📁 Save As…</button>
+      <button class="menu-btn" onclick="saveAsNewProfile()">📁 Save As Profile…</button>
       <button class="menu-btn" onclick="loadFromFile()">📂 Load File…</button>
       <button class="menu-btn" onclick="clearData()">🆕 New</button>
     </div>
   </div>
-
   <div class="dropdown" id="dd-settings">
     <button class="dropdown-btn" onclick="toggleMenu('settings')">Settings ▾</button>
     <div class="dropdown-menu" id="menu-settings">
+      <span class="menu-label">Profile</span>
+      <div style="display: flex; gap: 5px; padding: 7px 10px;">
+        <select id="profileSelect" onchange="switchProfile()" style="flex: 1;">
+          <option value="">Select profile...</option>
+        </select>
+        <button class="menu-btn" onclick="deleteProfile()" style="flex: 0; padding: 5px 8px;">🗑️</button>
+      </div>
       <span class="menu-label">Theme</span>
       <select id="themeSelect" onchange="changeTheme(this.value)">
         <option value="default">☀️ Default</option>
@@ -440,6 +856,27 @@
         <option value="mocha">☕ Mocha</option>
         <option value="candy">🍬 Candy</option>
       </select>
+      <span class="menu-label">Currency</span>
+      <select id="currencySelect" onchange="changeCurrency(this.value)">
+        <option value="USD">💵 USD - US Dollar</option>
+        <option value="EUR">€ EUR - Euro</option>
+        <option value="GBP">£ GBP - British Pound</option>
+        <option value="JPY">¥ JPY - Japanese Yen</option>
+        <option value="CAD">C$ CAD - Canadian Dollar</option>
+        <option value="AUD">A$ AUD - Australian Dollar</option>
+        <option value="CHF">CHF - Swiss Franc</option>
+        <option value="CNY">¥ CNY - Chinese Yuan</option>
+        <option value="INR">₹ INR - Indian Rupee</option>
+        <option value="MXN">$ MXN - Mexican Peso</option>
+      </select>
+      <span class="menu-label">Background Color</span>
+      <input type="color" id="bgColorInput" oninput="changeBackgroundColor(this.value)" onchange="changeBackgroundColor(this.value)">
+      <span class="menu-label">Box Background Color</span>
+      <input type="color" id="boxBgColorInput" oninput="changeBoxBackgroundColor(this.value)" onchange="changeBoxBackgroundColor(this.value)">
+      <span class="menu-label">Text Color</span>
+      <input type="color" id="textColorInput" oninput="changeTextColor(this.value)" onchange="changeTextColor(this.value)">
+      <span class="menu-label">Card Border Color</span>
+      <div class="color-swatch-grid" id="borderColorSwatches"></div>
       <span class="menu-label">Font</span>
       <select id="fontSelect" onchange="changeFont(this.value)">
         <option value="Arial, sans-serif">Arial</option>
@@ -452,44 +889,129 @@
       </select>
       <span class="menu-label">Font Size</span>
       <input type="range" min="12" max="22" value="16" id="fontSizeRange" oninput="changeFontSize(this.value)">
+      <span class="menu-label">Background Image</span>
+      <input type="file" id="backgroundImageInput" accept="image/*" onchange="handleBackgroundImageUpload(event)">
+      <button class="menu-btn" onclick="clearBackgroundImage()">🗑️ Clear Background</button>
+      <span class="menu-label">Card Border Width</span>
+      <input type="range" min="0" max="10" value="0" id="borderWidthRange" oninput="changeCardBorderWidth(this.value)">
+      <span class="menu-label">Autosave Interval (min)</span>
+      <div style="display: flex; gap: 5px; padding: 7px 10px;">
+        <button class="menu-btn" onclick="decreaseAutosaveInterval()" style="flex: 1; padding: 5px;">−</button>
+        <input type="number" id="autosaveIntervalInput" min="5" max="120" value="15" style="flex: 1;" readonly>
+        <button class="menu-btn" onclick="increaseAutosaveInterval()" style="flex: 1; padding: 5px;">+</button>
+      </div>
+      <span class="menu-label">Money Animation</span>
+      <div style="padding: 7px 10px; display: flex; gap: 10px; align-items: center;">
+        <input type="checkbox" id="animationToggle" checked onchange="toggleMoneyAnimation()">
+        <label for="animationToggle" style="margin: 0; flex: 1;">Enable falling money</label>
+      </div>
+      <span class="menu-label">Import CSV</span>
+      <input type="file" id="csvInput" accept=".csv" onchange="handleCSVUpload(event)">
     </div>
   </div>
-
-  <div class="dropdown" id="dd-lastentry">
-    <button class="dropdown-btn" onclick="toggleMenu('lastentry')">Last Entry ▾</button>
-    <div class="dropdown-menu" id="menu-lastentry">
-      <div id="lastEntryTime" style="padding: 10px; font-size: 1em; color: var(--text);">No entries yet.</div>
+  <div class="dropdown" id="dd-restore">
+    <button class="dropdown-btn" onclick="toggleMenu('restore')">Restore Cards ▾</button>
+    <div class="dropdown-menu" id="menu-restore">
+      <div id="restoreCardsList"></div>
+    </div>
+  </div>
+  <div class="dropdown" id="dd-entrylog">
+    <button class="dropdown-btn" onclick="toggleMenu('entrylog')">Entry Log ▾</button>
+    <div class="dropdown-menu" id="menu-entrylog">
+      <div class="entry-log-list" id="entryLogList">
+        <div style="padding: 10px; font-size: 0.9em; color: var(--text-muted);">No entries yet.</div>
+      </div>
     </div>
   </div>
 </div>
 
 <input type="file" id="fileInput" accept=".json" style="display:none" onchange="handleFileLoad(event)">
+<input type="file" id="csvFileInput" accept=".csv" style="display:none" onchange="handleCSVLoad(event)">
 
+<!-- REMINDER MODAL -->
+<div class="reminder-modal" id="reminderModal">
+  <div class="reminder-modal-content">
+    <h2>📅 Set Reminder</h2>
+    <label>Reminder Date:</label>
+    <input type="date" id="reminderDate">
+    <label>Reminder Time:</label>
+    <input type="time" id="reminderTime">
+    <label>Minutes Before (notification will show):</label>
+    <input type="number" id="reminderMinutesBefore" min="1" value="30">
+    <label>Note (optional):</label>
+    <textarea id="reminderNote" placeholder="Add a note for this reminder..."></textarea>
+    <div>
+      <button onclick="saveReminder()">💾 Save Reminder</button>
+      <button onclick="closeReminderModal()">✕ Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- GOAL CONFIRMATION MODAL -->
+<div class="goal-modal" id="goalModal">
+  <div class="goal-modal-content">
+    <h2>🏆 Set Weekly Goal?</h2>
+    <p id="goalModalText">You already have earnings today. Include this in your goal?</p>
+    <button onclick="confirmGoal(true)">✓ Include Earnings</button>
+    <button onclick="confirmGoal(false)">✕ Start Fresh Goal</button>
+  </div>
+</div>
+
+<!-- MAIN CANVAS AREA -->
 <div id="canvas">
 
-  <div class="card" id="card-entry" style="left:20px;top:20px;width:300px;height:300px;">
-    <div class="card-handle">⠿ Add Entry</div>
+  <!-- Add Entry -->
+  <div class="card" id="card-entry" style="left:20px;top:20px;width:300px;height:520px;">
+    <div class="card-handle">
+      <span>⠿ Add Entry</span>
+      <button class="close-btn" onclick="closeCard('card-entry')">✕</button>
+    </div>
     <div class="card-content">
       <div class="entry-header">
         <h2>Add Entry 💰</h2>
         <div id="entryCount" class="entry-counter">Entries: 0</div>
       </div>
-      <label class="field-label">Shekels</label>
-      <input id="shekelsInput" type="number" placeholder="0">
+      <label class="field-label">Currency</label>
+      <select id="entryCurrentCurrency">
+        <option value="USD">💵 USD</option>
+        <option value="EUR">€ EUR</option>
+        <option value="GBP">£ GBP</option>
+        <option value="JPY">¥ JPY</option>
+        <option value="CAD">C$ CAD</option>
+        <option value="AUD">A$ AUD</option>
+        <option value="CHF">CHF</option>
+        <option value="CNY">¥ CNY</option>
+        <option value="INR">₹ INR</option>
+        <option value="MXN">$ MXN</option>
+      </select>
+      <label class="field-label">Amount</label>
+      <input id="shekelsInput" type="number" placeholder="0" onkeypress="handleEntryKeypress(event)">
       <label class="field-label">Hours</label>
-      <input id="hoursInput" type="number" placeholder="0">
+      <input id="hoursInput" type="number" placeholder="0" onkeypress="handleEntryKeypress(event)">
       <label class="field-label">Minutes</label>
-      <input id="minutesInput" type="number" placeholder="0">
-      <button class="add-btn" onclick="addEntry()">Add $$$ 🪙</button>
+      <input id="minutesInput" type="number" placeholder="0" onkeypress="handleEntryKeypress(event)">
+      <label class="field-label">Platform</label>
+      <div class="platform-selector">
+        <select id="platformSelect" onchange="handlePlatformChange()" onkeypress="handleEntryKeypress(event)">
+          <option value="">Select platform...</option>
+        </select>
+        <input type="text" id="newPlatformInput" placeholder="New platform" style="display:none;" onkeypress="handlePlatformKeypress(event)">
+        <button id="platformToggleBtn" onclick="toggleNewPlatformInput()">+</button>
+      </div>
+      <button class="add-btn" onclick="addEntry()">Add <span id="currencySymbol">$$$</span> 🪙</button>
     </div>
   </div>
 
+  <!-- Weekly Goal -->
   <div class="card" id="card-goal" style="left:340px;top:20px;width:310px;height:230px;">
-    <div class="card-handle">⠿ Weekly Goal</div>
+    <div class="card-handle">
+      <span>⠿ Weekly Goal</span>
+      <button class="close-btn" onclick="closeCard('card-goal')">✕</button>
+    </div>
     <div class="card-content">
       <h2>Weekly Goal 🏆</h2>
-      <label class="field-label">Weekly Goal ($)</label>
-      <input id="goalInput" type="number" value="700">
+      <label class="field-label">Weekly Goal (<span id="goalCurrency">$</span>)</label>
+      <input id="goalInput" type="number" value="0" onchange="handleGoalChange()">
       <div class="progress-container">
         <div id="progressBar" class="progress-bar">0%</div>
       </div>
@@ -499,8 +1021,12 @@
     </div>
   </div>
 
-  <div class="card" id="card-today" style="left:20px;top:340px;width:300px;height:160px;">
-    <div class="card-handle">⠿ Today</div>
+  <!-- Today -->
+  <div class="card" id="card-today" style="left:20px;top:560px;width:300px;height:200px;">
+    <div class="card-handle">
+      <span>⠿ Today</span>
+      <button class="close-btn" onclick="closeCard('card-today')">✕</button>
+    </div>
     <div class="card-content">
       <h2>Today 💵</h2>
       <div class="today-flex">
@@ -512,12 +1038,20 @@
           <div class="box-label">AVG / HOUR</div>
           <div class="big-num" id="todayAvg">$0.00</div>
         </div>
+        <div class="time-box">
+          <div class="box-label">TIME WORKED</div>
+          <div class="big-num" id="todayTime">0h 0m</div>
+        </div>
       </div>
     </div>
   </div>
 
+  <!-- Monthly / Yearly -->
   <div class="card" id="card-monthly" style="left:340px;top:270px;width:310px;height:300px;">
-    <div class="card-handle">⠿ Monthly / Yearly</div>
+    <div class="card-handle">
+      <span>⠿ Monthly / Yearly</span>
+      <button class="close-btn" onclick="closeCard('card-monthly')">✕</button>
+    </div>
     <div class="card-content">
       <h2>Monthly / Yearly 💰</h2>
       <div class="monthly-grid">
@@ -526,17 +1060,29 @@
           <div class="big-num" id="monthlyDisplay">$0.00</div>
         </div>
         <div class="money-row">
+          <div class="box-label">THIS MONTH ENTRIES</div>
+          <div class="big-num" id="monthlyEntries">0</div>
+        </div>
+        <div class="money-row">
           <div class="box-label">THIS YEAR</div>
           <div class="big-num" id="yearlyDisplay">$0.00</div>
         </div>
-        <h2>Biggest Entry 💰</h2>
+        <div class="money-row">
+          <div class="box-label">THIS YEAR ENTRIES</div>
+          <div class="big-num" id="yearlyEntries">0</div>
+        </div>
+        <h2>Biggest Single Entry 💰</h2>
         <div id="biggestEntry">$0.00</div>
       </div>
     </div>
   </div>
 
-  <div class="card" id="card-chart" style="left:20px;top:520px;width:300px;height:260px;">
-    <div class="card-handle">⠿ Chart</div>
+  <!-- Chart -->
+  <div class="card" id="card-chart" style="left:20px;top:780px;width:300px;height:260px;">
+    <div class="card-handle">
+      <span>⠿ Chart</span>
+      <button class="close-btn" onclick="closeCard('card-chart')">✕</button>
+    </div>
     <div class="card-content">
       <h2>Chart 📈</h2>
       <div class="chart-wrapper">
@@ -545,9 +1091,18 @@
     </div>
   </div>
 
-  <div class="card" id="card-calendar" style="left:340px;top:450px;width:500px;height:320px;">
-    <div class="card-handle">⠿ Calendar</div>
+  <!-- Calendar -->
+  <div class="card" id="card-calendar" style="left:340px;top:580px;width:500px;height:320px;">
+    <div class="card-handle">
+      <span>⠿ Calendar</span>
+      <button class="close-btn" onclick="closeCard('card-calendar')">✕</button>
+    </div>
     <div class="card-content">
+      <div class="calendar-month-selector">
+        <select id="calendarMonthSelect" onchange="changeCalendarMonth(this.value)">
+          <option value="">Select Month...</option>
+        </select>
+      </div>
       <h2 id="calendarTitle">Calendar</h2>
       <div class="calendar-wrapper">
         <div class="calendar" id="calendar"></div>
@@ -555,43 +1110,661 @@
     </div>
   </div>
 
-  <div class="card" id="card-lastentry" style="left:680px;top:20px;width:300px;height:100px;">
-    <div class="card-handle">⠿ Last Entry</div>
+  <!-- Entry Log Card -->
+  <div class="card" id="card-entrylog" style="left:860px;top:20px;width:300px;height:350px;">
+    <div class="card-handle">
+      <span>⠿ Entry Log</span>
+      <button class="close-btn" onclick="closeCard('card-entrylog')">✕</button>
+    </div>
     <div class="card-content">
-      <h2>Last Entry Time & Date</h2>
-      <div id="lastEntryDisplay">No entries yet.</div>
+      <h2>Entry Log 📝</h2>
+      <div class="entry-log-list" id="entryLogCard">
+        <div style="padding: 10px; font-size: 0.9em; color: var(--text-muted);">No entries yet.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Platform Totals Card -->
+  <div class="card" id="card-platform" style="left:860px;top:380px;width:300px;height:350px;">
+    <div class="card-handle">
+      <span>⠿ Platform Totals</span>
+      <button class="close-btn" onclick="closeCard('card-platform')">✕</button>
+    </div>
+    <div class="card-content">
+      <h2>Platform Totals 📊</h2>
+      <div id="platformTotalsContainer" style="flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 5px;">
+        <div style="padding: 10px; font-size: 0.9em; color: var(--text-muted);">No platform data yet.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Motivational Card -->
+  <div class="card" id="card-motivational" style="left:860px;top:740px;width:300px;height:160px;">
+    <div class="card-handle">
+      <span>⠿ Motivational</span>
+      <button class="close-btn" onclick="closeCard('card-motivational')">✕</button>
+    </div>
+    <div class="card-content">
+      <div class="quote-box" id="quoteBox">
+        "Your potential for greatness is limitless. Make every moment count!" 💪
+      </div>
     </div>
   </div>
 
 </div>
 
 <script>
-  // ===== LOCAL DATE HELPER (FIX) =====
-  function formatLocalDate(d) {
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, '0');
-    const day = String(d.getDate()).padStart(2, '0');
-    return `${y}-${m}-${day}`;
+  // Fetch live currency rates every 3 days
+  async function fetchCurrencyRates() {
+    try {
+      const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+      const data = await response.json();
+      console.log('Fetched live currency rates');
+      return data.rates;
+    } catch (e) {
+      console.log('Using cached rates:', e.message);
+      return null;
+    }
   }
 
-  // ===== STATE =====
-  let data = { entries:{}, goal:700, theme:'default', font:'Arial, sans-serif', fontSize:16 };
-  const today = formatLocalDate(new Date());
-  let chartObj;
-  let biggestEntryAmount = 0;
-  let lastEntryTimestamp = null;
+  const motivationalQuotes = [
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "Success is not final, failure is not fatal. - Winston Churchill",
+    "Money is a tool. Used properly it makes your life better; used poorly it destroys you. - Naval Ravikant",
+    "Your time is limited, don't waste it living someone else's life. - Steve Jobs",
+    "The best investment is in yourself. - Warren Buffett",
+    "Work hard in silence, let success make the noise.",
+    "You miss 100% of the shots you don't take. - Wayne Gretzky",
+    "Don't watch the clock; do what it does. Keep going.",
+    "The future depends on what you do today. - Mahatma Gandhi",
+    "Great things never come from comfort zones.",
+    "You don't need permission to be great.",
+    "Your limitation—it's only your imagination. Push beyond limits.",
+    "Dream it. Believe it. Build it.",
+    "Success doesn't just find you. You have to go out and get it.",
+    "Great work is done by waking up in the morning and being grateful. - Lin-Manuel Miranda",
+    "The only impossible journey is the one you never begin.",
+    "Money talks, but all it ever has to say is goodbye.",
+    "Don't be afraid to give up the good to go for the great. - John D. Rockefeller",
+    "Your hustle will pay off. Keep grinding.",
+    "The only thing standing between you and your goal is the story you keep telling yourself.",
+    "Be so good they can't ignore you.",
+    "Success is the sum of small efforts repeated day in and day out.",
+    "Earn it every single day.",
+    "Remember why you started.",
+    "Every dollar earned is a victory.",
+    "Build your dreams or someone will hire you to build theirs.",
+    "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "Your only limit is you.",
+    "Believe in the power of yet.",
+    "The grind never stops, the hustle is eternal.",
+    "What got you here, won't get you there."
+  ];
 
+  const moneyEmojis = ['💰', '💵', '💴', '💶', '💷', '🤑', '💸', '💳', '🪙', '💎', '🏆', '👑'];
+  const borderColors = [
+    { name: 'Default', value: '#aaaaaa' },
+    { name: 'Red', value: '#FF0000' },
+    { name: 'Green', value: '#00FF00' },
+    { name: 'Blue', value: '#0000FF' },
+    { name: 'Yellow', value: '#FFFF00' },
+    { name: 'Magenta', value: '#FF00FF' },
+    { name: 'Cyan', value: '#00FFFF' },
+    { name: 'Orange', value: '#FFA500' },
+    { name: 'Purple', value: '#800080' },
+    { name: 'Pink', value: '#FFC0CB' },
+    { name: 'Black', value: '#000000' },
+    { name: 'White', value: '#FFFFFF' }
+  ];
+
+  const fireworkEmojis = ['✨', '🎆', '🎇', '⭐', '💫', '🌟', '✨'];
+
+  // Default currency rates (updated every 3 days)
+  let currencyRates = {
+    'USD': 1,
+    'EUR': 0.92,
+    'GBP': 0.79,
+    'JPY': 149.5,
+    'CAD': 1.36,
+    'AUD': 1.53,
+    'CHF': 0.88,
+    'CNY': 7.24,
+    'INR': 83.12,
+    'MXN': 17.05
+  };
+
+  const currencySymbols = {
+    'USD': '$',
+    'EUR': '€',
+    'GBP': '£',
+    'JPY': '¥',
+    'CAD': 'C$',
+    'AUD': 'A$',
+    'CHF': '₣',
+    'CNY': '¥',
+    'INR': '₹',
+    'MXN': '$'
+  };
+
+  let data = { 
+    entries:{}, 
+    entryLog:[], 
+    platforms:[],
+    goal:0, 
+    theme:'default', 
+    font:'Arial, sans-serif', 
+    fontSize:16, 
+    backgroundImage:'', 
+    cardBorderWidth:0, 
+    cardBorderColor:'#aaaaaa', 
+    autosaveInterval:15, 
+    lastSaveFile:null,
+    customBgColor:'',
+    customBoxBgColor:'',
+    customTextColor:'',
+    hiddenCards:[],
+    cardPositions:{},
+    enableAnimation:true,
+    profileName:'Default',
+    reminders: [],
+    defaultCurrency: 'USD',
+    overrideTextColor: null,
+    overrideBorderColor: null,
+    lastCurrencyUpdate: 0,
+    biggestSingleEntry: 0
+  };
+  
+  let deletedEntries = [];
+  const today = new Date().toISOString().split('T')[0];
+  let chartObj;
+  let lastEntryTimestamp = null;
+  let autosaveIntervalId = null;
+  let currentYear = new Date().getFullYear();
+  let currentMonth = new Date().getMonth();
+  let viewingMonth = new Date().getMonth();
+  let viewingYear = new Date().getFullYear();
+  let showingNewPlatformInput = false;
+  let goalReachedThisWeek = false;
+  let selectedReminderDate = null;
+  let pendingGoalValue = null;
+
+  const holidays = {
+    '01-01': 'New Year\'s Day',
+    '01-20': 'MLK Jr. Day',
+    '02-17': 'Presidents Day',
+    '03-17': 'St. Patrick\'s Day',
+    '05-26': 'Memorial Day',
+    '06-19': 'Juneteenth',
+    '07-04': 'Independence Day',
+    '09-01': 'Labor Day',
+    '10-13': 'Columbus Day',
+    '10-31': 'Halloween',
+    '11-10': 'Veterans Day',
+    '11-27': 'Thanksgiving',
+    '12-25': 'Christmas'
+  };
+
+  // ===== CURRENCY FUNCTIONS =====
+  async function initializeCurrencyRates() {
+    const now = Date.now();
+    const lastUpdate = data.lastCurrencyUpdate || 0;
+    const daysSinceUpdate = (now - lastUpdate) / (1000 * 60 * 60 * 24);
+    
+    if (daysSinceUpdate > 3) {
+      const rates = await fetchCurrencyRates();
+      if (rates) {
+        currencyRates = rates;
+        data.lastCurrencyUpdate = now;
+        saveLocalSilent();
+      }
+    }
+  }
+
+  function changeCurrency(currency) {
+    data.defaultCurrency = currency;
+    const symbol = currencySymbols[currency] || '$';
+    document.getElementById('currencySymbol').innerText = symbol;
+    document.getElementById('goalCurrency').innerText = symbol;
+    document.getElementById('entryCurrentCurrency').value = currency;
+    updateAll();
+  }
+
+  function convertCurrency(amount, fromCurrency, toCurrency) {
+    if (fromCurrency === toCurrency) return amount;
+    const rateFrom = currencyRates[fromCurrency] || 1;
+    const rateTo = currencyRates[toCurrency] || 1;
+    return (amount / rateFrom) * rateTo;
+  }
+
+  // ===== PROFILES =====
+  function getProfileKey(name) {
+    return `shekelsProfile_${name}`;
+  }
+
+  function listProfiles() {
+    let profiles = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key.startsWith('shekelsProfile_')) {
+        const name = key.replace('shekelsProfile_', '');
+        profiles.push(name);
+      }
+    }
+    return profiles;
+  }
+
+  function saveAsNewProfile() {
+    let name = prompt('Enter profile name:');
+    if (!name) return;
+    name = name.trim();
+    
+    if (listProfiles().includes(name)) {
+      alert('Profile already exists');
+      return;
+    }
+    
+    data.profileName = name;
+    saveLocal();
+    updateProfileSelect();
+    const select = document.getElementById('profileSelect');
+    select.value = name;
+    alert(`Profile saved as: ${name}`);
+    closeMenus();
+  }
+
+  function switchProfile() {
+    const select = document.getElementById('profileSelect');
+    const profileName = select.value;
+    if (!profileName) return;
+    
+    saveCardPositions();
+    localStorage.setItem(getProfileKey(data.profileName), JSON.stringify(data));
+    
+    const saved = localStorage.getItem(getProfileKey(profileName));
+    if (saved) {
+      try {
+        data = JSON.parse(saved);
+        data.profileName = profileName;
+        if (!data.platforms) data.platforms = [];
+        applySettings();
+        applyBackgroundImage();
+        restoreCardPositions();
+        changeCurrency(data.defaultCurrency);
+        
+        let biggestAmount = 0;
+        lastEntryTimestamp = null;
+        if (data.entryLog && Array.isArray(data.entryLog)) {
+          data.entryLog.forEach(entry => {
+            if (entry.timestamp) {
+              if (!lastEntryTimestamp || new Date(entry.timestamp) > new Date(lastEntryTimestamp))
+                lastEntryTimestamp = entry.timestamp;
+            }
+            if (entry.amount > biggestAmount) {
+              biggestAmount = entry.amount;
+            }
+          });
+        }
+        data.biggestSingleEntry = biggestAmount;
+        
+        if (data.hiddenCards && Array.isArray(data.hiddenCards)) {
+          data.hiddenCards.forEach(cardId => {
+            const card = document.getElementById(cardId);
+            if (card) card.classList.add('hidden');
+          });
+        }
+        
+        updatePlatformSelect();
+        updateAll();
+        resetAutosaveTimer();
+        alert(`Switched to profile: ${profileName}`);
+      } catch(e) {
+        alert('Error loading profile');
+      }
+    }
+  }
+
+  function deleteProfile() {
+    const select = document.getElementById('profileSelect');
+    const profileName = select.value;
+    if (!profileName) {
+      alert('Select a profile to delete');
+      return;
+    }
+    if (!confirm(`Delete profile "${profileName}"? This cannot be undone.`)) return;
+    
+    localStorage.removeItem(getProfileKey(profileName));
+    updateProfileSelect();
+    alert(`Profile "${profileName}" deleted`);
+  }
+
+  function updateProfileSelect() {
+    const select = document.getElementById('profileSelect');
+    const profiles = listProfiles();
+    select.innerHTML = '<option value="">Select profile...</option>';
+    profiles.forEach(profile => {
+      const option = document.createElement('option');
+      option.value = profile;
+      option.textContent = profile;
+      select.appendChild(option);
+    });
+  }
+
+  // ===== FALLING MONEY ANIMATION =====
+  function createFallingMoney() {
+    if (!data.enableAnimation) return;
+    
+    const emoji = moneyEmojis[Math.floor(Math.random() * moneyEmojis.length)];
+    const money = document.createElement('div');
+    money.className = 'falling-money';
+    money.innerText = emoji;
+    money.style.left = Math.random() * window.innerWidth + 'px';
+    document.body.appendChild(money);
+    
+    setTimeout(() => {
+      money.remove();
+    }, 2600);
+  }
+
+  function triggerMoneyFall() {
+    if (!data.enableAnimation) return;
+    
+    for (let i = 0; i < 20; i++) {
+      setTimeout(() => {
+        createFallingMoney();
+      }, i * 80);
+    }
+  }
+
+  function toggleMoneyAnimation() {
+    data.enableAnimation = document.getElementById('animationToggle').checked;
+  }
+
+  // ===== FIREWORKS CELEBRATION =====
+  function triggerFireworks() {
+    const popup = document.createElement('div');
+    popup.className = 'celebration-popup';
+    popup.innerHTML = '🎉 GOAL REACHED! 🎉<br>🚀 Amazing Work! 🚀';
+    document.body.appendChild(popup);
+    
+    setTimeout(() => popup.remove(), 3000);
+    
+    for (let burst = 0; burst < 15; burst++) {
+      setTimeout(() => {
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * (window.innerHeight * 0.6) + 100;
+        
+        createFireworkBurst(x, y);
+      }, burst * 150);
+    }
+  }
+
+  function createFireworkBurst(x, y) {
+    const colors = ['#FF0000', '#FFA500', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#9400D3', '#FF1493', '#00CED1', '#FFD700'];
+    const particleCount = 50;
+    
+    for (let i = 0; i < particleCount; i++) {
+      const angle = (Math.PI * 2 * i) / particleCount;
+      const velocity = 4 + Math.random() * 8;
+      const tx = Math.cos(angle) * velocity * 100;
+      const ty = Math.sin(angle) * velocity * 100;
+      
+      const particle = document.createElement('div');
+      particle.className = 'firework-particle';
+      particle.innerText = fireworkEmojis[Math.floor(Math.random() * fireworkEmojis.length)];
+      particle.style.left = x + 'px';
+      particle.style.top = y + 'px';
+      particle.style.setProperty('--tx', tx + 'px');
+      particle.style.setProperty('--ty', ty + 'px');
+      particle.style.color = colors[Math.floor(Math.random() * colors.length)];
+      
+      document.body.appendChild(particle);
+      
+      setTimeout(() => {
+        particle.remove();
+      }, 3000);
+    }
+  }
+
+  // ===== REMINDER SYSTEM =====
+  function openReminderModal(dateStr) {
+    selectedReminderDate = dateStr;
+    document.getElementById('reminderDate').value = dateStr;
+    document.getElementById('reminderTime').value = '09:00';
+    document.getElementById('reminderMinutesBefore').value = '30';
+    document.getElementById('reminderNote').value = '';
+    document.getElementById('reminderModal').classList.add('show');
+  }
+
+  function closeReminderModal() {
+    document.getElementById('reminderModal').classList.remove('show');
+  }
+
+  function saveReminder() {
+    const date = document.getElementById('reminderDate').value;
+    const time = document.getElementById('reminderTime').value;
+    const minutesBefore = parseInt(document.getElementById('reminderMinutesBefore').value) || 30;
+    const note = document.getElementById('reminderNote').value;
+    
+    if (!date || !time) {
+      alert('Please enter both date and time');
+      return;
+    }
+    
+    const reminder = {
+      date,
+      time,
+      minutesBefore,
+      note,
+      id: Date.now()
+    };
+    
+    if (!data.reminders) data.reminders = [];
+    data.reminders.push(reminder);
+    
+    alert('✅ Reminder saved!');
+    closeReminderModal();
+    updateAll();
+  }
+
+  function checkReminders() {
+    if (!data.reminders) return;
+    
+    const now = new Date();
+    
+    data.reminders.forEach(reminder => {
+      const [year, month, day] = reminder.date.split('-');
+      const [hours, minutes] = reminder.time.split(':');
+      
+      const reminderTime = new Date(year, month - 1, day, hours, minutes, 0);
+      const notificationTime = new Date(reminderTime - reminder.minutesBefore * 60 * 1000);
+      
+      if (now >= notificationTime && now < reminderTime) {
+        showReminderNotification(reminder);
+      }
+    });
+  }
+
+  function showReminderNotification(reminder) {
+    const notification = document.createElement('div');
+    notification.className = 'reminder-popup';
+    
+    const noteText = reminder.note ? `<p>📝 ${reminder.note}</p>` : '';
+    notification.innerHTML = `
+      <h1>⏰ REMINDER! ⏰</h1>
+      <p>${reminder.date} at ${reminder.time}</p>
+      ${noteText}
+      <p style="font-size: 40px; margin-top: 40px;">Get ready! ⏳</p>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+      notification.remove();
+    }, 8000);
+  }
+
+  // ===== GOAL CONFIRMATION =====
+  function handleGoalChange() {
+    const newGoal = Number(document.getElementById('goalInput').value || 0);
+    const currentTotal = Object.values(data.entries).reduce((sum, e) => sum + e.total, 0);
+    
+    if (newGoal > 0 && currentTotal > 0 && currentTotal < newGoal) {
+      pendingGoalValue = newGoal;
+      document.getElementById('goalModalText').innerText = `You already earned ${currencySymbols[data.defaultCurrency]}${currentTotal.toFixed(2)} today. Include this in your goal?`;
+      document.getElementById('goalModal').classList.add('show');
+    } else {
+      data.goal = newGoal;
+      goalReachedThisWeek = false;
+      updateProgress();
+    }
+  }
+
+  function confirmGoal(includeToday) {
+    document.getElementById('goalModal').classList.remove('show');
+    
+    if (includeToday) {
+      const currentTotal = Object.values(data.entries).reduce((sum, e) => sum + e.total, 0);
+      data.goal = pendingGoalValue + currentTotal;
+    } else {
+      data.goal = pendingGoalValue;
+    }
+    
+    goalReachedThisWeek = false;
+    updateProgress();
+    pendingGoalValue = null;
+  }
+
+  // ===== ENTER KEY HANDLERS =====
+  function handleEntryKeypress(event) {
+    if (event.key === 'Enter') {
+      addEntry();
+    }
+  }
+
+  function handlePlatformKeypress(event) {
+    if (event.key === 'Enter') {
+      const newPlatform = document.getElementById('newPlatformInput').value.trim();
+      if (newPlatform) {
+        if (!data.platforms.includes(newPlatform)) {
+          data.platforms.push(newPlatform);
+          updatePlatformSelect();
+        }
+        showingNewPlatformInput = false;
+        document.getElementById('newPlatformInput').style.display = 'none';
+        document.getElementById('platformSelect').style.display = 'block';
+        document.getElementById('platformToggleBtn').textContent = '+';
+        document.getElementById('platformSelect').value = newPlatform;
+        document.getElementById('newPlatformInput').value = '';
+        document.getElementById('shekelsInput').focus();
+      }
+    }
+  }
+
+  function handlePlatformChange() {
+    closeMenus();
+  }
+
+  // ===== DROPDOWN TOGGLE =====
   function toggleMenu(which) {
     const menu = document.getElementById('menu-' + which);
     const isOpen = menu.classList.contains('open');
     document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
-    if (!isOpen) menu.classList.add('open');
+    if (!isOpen) {
+      menu.classList.add('open');
+      if (which === 'restore') updateRestoreCardsList();
+    }
   }
   document.addEventListener('click', e => {
-    if (!e.target.closest('.dropdown'))
+    if (!e.target.closest('.dropdown') && !e.target.closest('.reminder-modal-content') && !e.target.closest('.goal-modal-content'))
       document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
   });
 
+  // ===== PLATFORM FUNCTIONS =====
+  function toggleNewPlatformInput() {
+    showingNewPlatformInput = !showingNewPlatformInput;
+    const input = document.getElementById('newPlatformInput');
+    const select = document.getElementById('platformSelect');
+    const btn = document.getElementById('platformToggleBtn');
+    
+    if (showingNewPlatformInput) {
+      input.style.display = 'block';
+      select.style.display = 'none';
+      btn.textContent = '✓';
+      input.focus();
+    } else {
+      input.style.display = 'none';
+      select.style.display = 'block';
+      btn.textContent = '+';
+      const newPlatform = input.value.trim();
+      if (newPlatform && !data.platforms.includes(newPlatform)) {
+        data.platforms.push(newPlatform);
+        updatePlatformSelect();
+      }
+      input.value = '';
+    }
+  }
+
+  function updatePlatformSelect() {
+    const select = document.getElementById('platformSelect');
+    const currentValue = select.value;
+    select.innerHTML = '<option value="">Select platform...</option>';
+    if (data.platforms && Array.isArray(data.platforms)) {
+      data.platforms.forEach(platform => {
+        const option = document.createElement('option');
+        option.value = platform;
+        option.textContent = platform;
+        select.appendChild(option);
+      });
+    }
+    select.value = currentValue;
+  }
+
+  // ===== CLOSE / RESTORE CARDS =====
+  function closeCard(cardId) {
+    const card = document.getElementById(cardId);
+    card.classList.add('hidden');
+    if (!data.hiddenCards.includes(cardId)) {
+      data.hiddenCards.push(cardId);
+    }
+    closeMenus();
+  }
+
+  function restoreCard(cardId) {
+    const card = document.getElementById(cardId);
+    card.classList.remove('hidden');
+    data.hiddenCards = data.hiddenCards.filter(id => id !== cardId);
+    closeMenus();
+  }
+
+  function updateRestoreCardsList() {
+    const list = document.getElementById('restoreCardsList');
+    const allCards = [
+      { id: 'card-entry', name: 'Add Entry' },
+      { id: 'card-goal', name: 'Weekly Goal' },
+      { id: 'card-today', name: 'Today' },
+      { id: 'card-monthly', name: 'Monthly / Yearly' },
+      { id: 'card-chart', name: 'Chart' },
+      { id: 'card-calendar', name: 'Calendar' },
+      { id: 'card-entrylog', name: 'Entry Log' },
+      { id: 'card-platform', name: 'Platform Totals' },
+      { id: 'card-motivational', name: 'Motivational' }
+    ];
+
+    let html = '';
+    allCards.forEach(card => {
+      if (data.hiddenCards.includes(card.id)) {
+        html += `<button class="menu-btn" onclick="restoreCard('${card.id}')">🔄 ${card.name}</button>`;
+      }
+    });
+
+    if (html === '') {
+      html = '<div style="padding: 10px; font-size: 0.9em; color: var(--text-muted);">All cards are visible.</div>';
+    }
+
+    list.innerHTML = html;
+  }
+
+  // ===== CARD DRAG =====
   (function() {
     let dragging=null, ox=0, oy=0;
     document.addEventListener('mousedown', e => {
@@ -621,14 +1794,69 @@
     });
   })();
 
+  // ===== THEME =====
   function changeTheme(theme) {
     ['dark','green','purple','sunset','forest','ocean','midnight','neon','mocha','candy']
       .forEach(t => document.body.classList.remove('theme-'+t));
     if (theme !== 'default') document.body.classList.add('theme-'+theme);
     data.theme = theme;
+    
+    if (data.overrideTextColor) {
+      document.documentElement.style.setProperty('--text', data.overrideTextColor);
+    }
+    if (data.overrideBorderColor) {
+      document.documentElement.style.setProperty('--card-border', data.overrideBorderColor);
+    }
+    
     if (chartObj) updateChart();
   }
 
+  // ===== CUSTOM COLORS (REAL-TIME) =====
+  function changeBackgroundColor(color) {
+    data.customBgColor = color;
+    if (color) {
+      document.body.style.backgroundColor = color;
+    } else {
+      document.body.style.backgroundColor = '';
+    }
+  }
+
+  function changeBoxBackgroundColor(color) {
+    data.customBoxBgColor = color;
+    if (color) {
+      document.documentElement.style.setProperty('--box-bg', color);
+    } else {
+      document.documentElement.style.setProperty('--box-bg', '');
+    }
+  }
+
+  function changeTextColor(color) {
+    data.overrideTextColor = color;
+    document.documentElement.style.setProperty('--text', color);
+    document.body.style.color = color;
+  }
+
+  // ===== BORDER COLOR SWATCHES (REAL-TIME) =====
+  function initBorderColorSwatches() {
+    const container = document.getElementById('borderColorSwatches');
+    container.innerHTML = '';
+    borderColors.forEach(color => {
+      const swatch = document.createElement('div');
+      swatch.className = 'color-swatch';
+      swatch.style.backgroundColor = color.value;
+      swatch.title = color.name;
+      swatch.onclick = () => changeCardBorderColor(color.value);
+      container.appendChild(swatch);
+    });
+  }
+
+  function changeCardBorderColor(color) {
+    data.overrideBorderColor = color;
+    document.documentElement.style.setProperty('--card-border', color);
+    data.cardBorderColor = color;
+  }
+
+  // ===== FONT =====
   function changeFont(font) {
     document.body.style.fontFamily = font;
     document.querySelectorAll('input, select, button, textarea').forEach(el => {
@@ -642,25 +1870,81 @@
     data.fontSize = Number(size);
   }
 
+  // ===== BACKGROUND IMAGE =====
+  function handleBackgroundImageUpload(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      data.backgroundImage = e.target.result;
+      applyBackgroundImage();
+      closeMenus();
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function applyBackgroundImage() {
+    if (data.backgroundImage) {
+      document.body.style.backgroundImage = `url('${data.backgroundImage}')`;
+    }
+  }
+
+  function clearBackgroundImage() {
+    data.backgroundImage = '';
+    document.body.style.backgroundImage = '';
+    closeMenus();
+  }
+
+  // ===== CARD BORDER WIDTH =====
+  function changeCardBorderWidth(width) {
+    document.documentElement.style.setProperty('--card-border-width', width + 'px');
+    data.cardBorderWidth = Number(width);
+  }
+
+  // ===== AUTOSAVE =====
+  function increaseAutosaveInterval() {
+    let current = Number(document.getElementById('autosaveIntervalInput').value);
+    current = Math.min(current + 5, 120);
+    document.getElementById('autosaveIntervalInput').value = current;
+    data.autosaveInterval = current;
+    resetAutosaveTimer();
+  }
+
+  function decreaseAutosaveInterval() {
+    let current = Number(document.getElementById('autosaveIntervalInput').value);
+    current = Math.max(current - 5, 5);
+    document.getElementById('autosaveIntervalInput').value = current;
+    data.autosaveInterval = current;
+    resetAutosaveTimer();
+  }
+
+  function resetAutosaveTimer() {
+    if (autosaveIntervalId) clearInterval(autosaveIntervalId);
+    const interval = data.autosaveInterval * 60 * 1000;
+    autosaveIntervalId = setInterval(() => {
+      updateMotivationalQuote();
+      saveLocalSilent();
+    }, interval);
+  }
+
+  // ===== FILE OPERATIONS =====
   function saveLocal() {
     saveCardPositions();
-    localStorage.setItem('shekelsApp', JSON.stringify(data));
+    localStorage.setItem(getProfileKey(data.profileName), JSON.stringify(data));
     alert('Saved!');
     closeMenus();
   }
-  function saveAsFile() {
+
+  function saveLocalSilent() {
     saveCardPositions();
-    const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
-    const url  = URL.createObjectURL(blob);
-    const a    = document.createElement('a');
-    a.href = url; a.download = 'shekels_'+today+'.json'; a.click();
-    URL.revokeObjectURL(url);
-    closeMenus();
+    localStorage.setItem(getProfileKey(data.profileName), JSON.stringify(data));
   }
+
   function loadFromFile() {
     document.getElementById('fileInput').click();
     closeMenus();
   }
+
   function handleFileLoad(e) {
     const file = e.target.files[0];
     if (!file) return;
@@ -668,50 +1952,122 @@
     reader.onload = ev => {
       try {
         data = JSON.parse(ev.target.result);
+        if (!data.profileName) data.profileName = 'Imported';
+        if (!data.enableAnimation) data.enableAnimation = true;
+        if (!data.reminders) data.reminders = [];
+        if (!data.platforms) data.platforms = [];
+        if (!data.defaultCurrency) data.defaultCurrency = 'USD';
+        
         applySettings();
+        applyBackgroundImage();
         restoreCardPositions();
-        biggestEntryAmount = 0;
+        changeCurrency(data.defaultCurrency);
+        
+        let biggestAmount = 0;
         lastEntryTimestamp = null;
-        Object.values(data.entries).forEach(entry => {
-          if (entry._timestamp) {
-            if (!lastEntryTimestamp || new Date(entry._timestamp) > new Date(lastEntryTimestamp))
-              lastEntryTimestamp = entry._timestamp;
-          }
-          if (entry.total > biggestEntryAmount) {
-            biggestEntryAmount = entry.total;
-          }
-        });
-        if (lastEntryTimestamp) {
-          document.getElementById('lastEntryDisplay').innerText = new Date(lastEntryTimestamp).toLocaleString();
-        } else {
-          document.getElementById('lastEntryDisplay').innerText = 'No entries yet.';
+        if (data.entryLog && Array.isArray(data.entryLog)) {
+          data.entryLog.forEach(entry => {
+            if (entry.timestamp) {
+              if (!lastEntryTimestamp || new Date(entry.timestamp) > new Date(lastEntryTimestamp))
+                lastEntryTimestamp = entry.timestamp;
+            }
+            if (entry.amount > biggestAmount) {
+              biggestAmount = entry.amount;
+            }
+          });
         }
-        document.getElementById('biggestEntry').innerText = `$${biggestEntryAmount.toFixed(2)}`;
+        data.biggestSingleEntry = biggestAmount;
+        const sym = currencySymbols[data.defaultCurrency] || '$';
+        document.getElementById('biggestEntry').innerText = `${sym}${biggestAmount.toFixed(2)}`;
+        
+        if (data.hiddenCards && Array.isArray(data.hiddenCards)) {
+          data.hiddenCards.forEach(cardId => {
+            const card = document.getElementById(cardId);
+            if (card) card.classList.add('hidden');
+          });
+        }
+        
+        updatePlatformSelect();
         updateAll();
+        resetAutosaveTimer();
+        updateProfileSelect();
         alert('Loaded! Showing today: ' + today);
       } catch(e) {
         alert('Could not read file. Make sure it is a valid Shekels .json file.');
       }
     };
-    reader.readAsText(e.target.files[0]);
+    reader.readAsText(file);
     e.target.value = '';
   }
 
   function clearData() {
-    if (!confirm('Start fresh? All entries will be cleared.')) return;
-    data = {entries:{}, goal:700, theme:data.theme, font:data.font, fontSize:data.fontSize};
-    localStorage.removeItem('shekelsApp');
-    biggestEntryAmount = 0;
+    if (!confirm('Start fresh? All entries will be cleared. Your card layout will be saved.')) return;
+    
+    saveCardPositions();
+    const savedPositions = {...data.cardPositions};
+    
+    data = {
+      entries:{}, 
+      entryLog:[], 
+      platforms:[],
+      goal:0, 
+      theme:'default', 
+      font:'Arial, sans-serif', 
+      fontSize:16, 
+      backgroundImage:'', 
+      cardBorderWidth:0, 
+      cardBorderColor:'#aaaaaa', 
+      autosaveInterval:15, 
+      lastSaveFile:null,
+      customBgColor:'',
+      customBoxBgColor:'',
+      customTextColor:'',
+      hiddenCards:[],
+      cardPositions: savedPositions,
+      enableAnimation:true,
+      profileName: 'Default',
+      reminders: [],
+      defaultCurrency: 'USD',
+      overrideTextColor: null,
+      overrideBorderColor: null,
+      lastCurrencyUpdate: 0,
+      biggestSingleEntry: 0
+    };
+    
     document.getElementById('biggestEntry').innerText = `$0.00`;
     lastEntryTimestamp = null;
-    document.getElementById('lastEntryDisplay').innerText = 'No entries yet.';
+    goalReachedThisWeek = false;
+    
+    document.getElementById('themeSelect').value = 'default';
+    document.getElementById('fontSelect').value = 'Arial, sans-serif';
+    document.getElementById('fontSizeRange').value = '16';
+    document.getElementById('bgColorInput').value = '#d9f2ff';
+    document.getElementById('boxBgColorInput').value = '#d4f8d4';
+    document.getElementById('textColorInput').value = '#111111';
+    document.getElementById('borderWidthRange').value = '0';
+    document.getElementById('autosaveIntervalInput').value = '15';
+    document.getElementById('animationToggle').checked = true;
+    
+    document.body.className = '';
+    document.body.style.fontFamily = 'Arial, sans-serif';
+    document.body.style.backgroundColor = '';
+    document.body.style.color = '';
+    document.body.style.backgroundImage = '';
+    document.documentElement.style.fontSize = '16px';
+    document.documentElement.style.setProperty('--card-border-width', '0px');
+    document.documentElement.style.setProperty('--card-border', '#aaaaaa');
+    document.documentElement.style.setProperty('--text', '#111111');
+    document.documentElement.style.setProperty('--box-bg', '#d4f8d4');
+    
     updateAll();
+    alert('All data reset! Card layout has been preserved.');
   }
 
   function closeMenus() {
     document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
   }
 
+  // ===== CARD POSITION =====
   function saveCardPositions() {
     data.cardPositions = {};
     document.querySelectorAll('.card').forEach(card => {
@@ -723,6 +2079,7 @@
       };
     });
   }
+
   function restoreCardPositions() {
     if (!data.cardPositions) return;
     document.querySelectorAll('.card').forEach(card => {
@@ -751,38 +2108,332 @@
       const fr = document.getElementById('fontSizeRange');
       if (fr) fr.value = data.fontSize;
     }
+    if (data.cardBorderWidth) {
+      changeCardBorderWidth(data.cardBorderWidth);
+      const br = document.getElementById('borderWidthRange');
+      if (br) br.value = data.cardBorderWidth;
+    }
+    if (data.overrideBorderColor) {
+      changeCardBorderColor(data.overrideBorderColor);
+    }
+    if (data.autosaveInterval) {
+      document.getElementById('autosaveIntervalInput').value = data.autosaveInterval;
+    }
+    if (data.customBgColor) {
+      document.getElementById('bgColorInput').value = data.customBgColor;
+      changeBackgroundColor(data.customBgColor);
+    }
+    if (data.customBoxBgColor) {
+      document.getElementById('boxBgColorInput').value = data.customBoxBgColor;
+      changeBoxBackgroundColor(data.customBoxBgColor);
+    }
+    if (data.overrideTextColor) {
+      document.getElementById('textColorInput').value = data.overrideTextColor;
+      changeTextColor(data.overrideTextColor);
+    }
+    document.getElementById('animationToggle').checked = data.enableAnimation !== false;
+    
+    if (data.defaultCurrency) {
+      document.getElementById('currencySelect').value = data.defaultCurrency;
+    }
   }
 
+  // ===== MOTIVATIONAL QUOTE =====
+  function updateMotivationalQuote() {
+    const randomQuote = motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)];
+    document.getElementById('quoteBox').innerText = '"' + randomQuote + '"';
+  }
+
+  // ===== CSV IMPORT =====
+  function handleCSVUpload(event) {
+    document.getElementById('csvFileInput').click();
+  }
+
+  function handleCSVLoad(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const csv = e.target.result;
+        const lines = csv.split('\n').filter(line => line.trim());
+        
+        if (lines.length < 2) {
+          alert('CSV file appears to be empty');
+          return;
+        }
+        
+        const headers = lines[0].split(',').map(h => h.trim().toLowerCase());
+        const amountIdx = headers.findIndex(h => h.includes('amount') || h.includes('shekels') || h.includes('$'));
+        const dateIdx = headers.findIndex(h => h.includes('date'));
+        const hoursIdx = headers.findIndex(h => h.includes('hours') || h.includes('hour'));
+        const minutesIdx = headers.findIndex(h => h.includes('minutes') || h.includes('minute'));
+        const platformIdx = headers.findIndex(h => h.includes('platform') || h.includes('source'));
+        
+        if (amountIdx === -1) {
+          alert('Could not find amount/shekels column');
+          return;
+        }
+        
+        let importedCount = 0;
+        let biggestAmount = data.biggestSingleEntry;
+        
+        for (let i = 1; i < lines.length; i++) {
+          const parts = lines[i].split(',').map(p => p.trim());
+          const amount = parseFloat(parts[amountIdx]);
+          
+          if (isNaN(amount)) continue;
+          
+          let dateStr = today;
+          if (dateIdx !== -1 && parts[dateIdx]) {
+            try {
+              const d = new Date(parts[dateIdx]);
+              dateStr = d.toISOString().split('T')[0];
+            } catch(e) {}
+          }
+          
+          const hours = hoursIdx !== -1 ? parseInt(parts[hoursIdx]) || 0 : 0;
+          const minutes = minutesIdx !== -1 ? parseInt(parts[minutesIdx]) || 0 : 0;
+          const platform = platformIdx !== -1 ? parts[platformIdx] : '';
+          
+          if (!data.entries[dateStr]) {
+            data.entries[dateStr] = {total:0, hours:0, count:0};
+          }
+          data.entries[dateStr].total += amount;
+          data.entries[dateStr].hours += hours + (minutes / 60);
+          data.entries[dateStr].count += 1;
+          
+          const nowStr = new Date().toISOString();
+          if (!data.entryLog) data.entryLog = [];
+          data.entryLog.push({
+            amount: amount,
+            hours: hours,
+            minutes: minutes,
+            platform: platform,
+            timestamp: nowStr,
+            currency: data.defaultCurrency
+          });
+          
+          if (platform && !data.platforms.includes(platform)) {
+            data.platforms.push(platform);
+          }
+          
+          if (amount > biggestAmount) {
+            biggestAmount = amount;
+          }
+          
+          importedCount++;
+        }
+        
+        data.biggestSingleEntry = biggestAmount;
+        const sym = currencySymbols[data.defaultCurrency] || '$';
+        document.getElementById('biggestEntry').innerText = `${sym}${biggestAmount.toFixed(2)}`;
+        updatePlatformSelect();
+        updateAll();
+        alert(`Imported ${importedCount} entries from CSV`);
+      } catch(e) {
+        alert('Error importing CSV: ' + e.message);
+      }
+    };
+    reader.readAsText(file);
+    event.target.value = '';
+  }
+
+  // ===== UPDATE ENTRY LOG DISPLAY =====
+  function updateEntryLogDisplay() {
+    const logCard = document.getElementById('entryLogCard');
+    const logDropdown = document.getElementById('entryLogList');
+    let html = '';
+    
+    if (!data.entryLog || data.entryLog.length === 0) {
+      const emptyMsg = '<div style="padding: 10px; font-size: 0.9em; color: var(--text-muted);">No entries yet.</div>';
+      logCard.innerHTML = emptyMsg;
+      logDropdown.innerHTML = emptyMsg;
+      return;
+    }
+
+    const sym = currencySymbols[data.defaultCurrency] || '$';
+    for (let i = data.entryLog.length - 1; i >= 0; i--) {
+      const entry = data.entryLog[i];
+      const entryDate = new Date(entry.timestamp);
+      const platformStr = entry.platform ? ` (${entry.platform})` : '';
+      html += `<div class="entry-log-item">
+        <div class="entry-log-item-content">
+          <div><strong>${sym}${entry.amount.toFixed(2)}</strong> • ${entry.hours}h ${entry.minutes}m${platformStr}</div>
+          <div class="entry-log-item-time">${entryDate.toLocaleString()}</div>
+        </div>
+        <button class="entry-delete-btn" onclick="deleteEntry(${i})">✕</button>
+      </div>`;
+    }
+
+    logCard.innerHTML = html;
+    logDropdown.innerHTML = html;
+  }
+
+  function deleteEntry(index) {
+    if (!confirm('Delete this entry?')) return;
+    
+    const entry = data.entryLog[index];
+    deletedEntries.push({index, entry});
+    
+    const entryDate = new Date(entry.timestamp);
+    const dateStr = entryDate.toISOString().split('T')[0];
+    
+    if (data.entries[dateStr]) {
+      data.entries[dateStr].total -= entry.amount;
+      data.entries[dateStr].hours -= entry.hours + (entry.minutes / 60);
+      data.entries[dateStr].count -= 1;
+      
+      if (data.entries[dateStr].count === 0) {
+        delete data.entries[dateStr];
+      }
+    }
+    
+    data.entryLog.splice(index, 1);
+    
+    let biggestAmount = 0;
+    if (data.entryLog && Array.isArray(data.entryLog)) {
+      data.entryLog.forEach(e => {
+        if (e.amount > biggestAmount) {
+          biggestAmount = e.amount;
+        }
+      });
+    }
+    data.biggestSingleEntry = biggestAmount;
+    
+    const sym = currencySymbols[data.defaultCurrency] || '$';
+    document.getElementById('biggestEntry').innerText = `${sym}${biggestAmount.toFixed(2)}`;
+    updateAll();
+    alert('Entry deleted');
+  }
+
+  // ===== UPDATE PLATFORM TOTALS =====
+  function updatePlatformTotals() {
+    const container = document.getElementById('platformTotalsContainer');
+    let now = new Date(), year = now.getFullYear(), month = now.getMonth();
+    
+    if (!data.platforms || data.platforms.length === 0) {
+      container.innerHTML = '<div style="padding: 10px; font-size: 0.9em; color: var(--text-muted);">No platform data yet.</div>';
+      return;
+    }
+
+    const sym = currencySymbols[data.defaultCurrency] || '$';
+    let html = '';
+    data.platforms.forEach(platform => {
+      let monthlyTotal = 0, monthlyHours = 0, monthlyEntries = 0, yearlyTotal = 0, yearlyHours = 0, yearlyEntries = 0;
+      
+      if (data.entryLog) {
+        data.entryLog.forEach(entry => {
+          if (entry.platform !== platform) return;
+          const entryDate = new Date(entry.timestamp);
+          if (entryDate.getFullYear() === year) {
+            yearlyTotal += entry.amount;
+            yearlyHours += entry.hours + (entry.minutes / 60);
+            yearlyEntries += 1;
+            if (entryDate.getMonth() === month) {
+              monthlyTotal += entry.amount;
+              monthlyHours += entry.hours + (entry.minutes / 60);
+              monthlyEntries += 1;
+            }
+          }
+        });
+      }
+
+      html += `<div class="platform-total-item">
+        <div class="platform-name">${platform}</div>
+        <div class="platform-stats">
+          <div class="platform-stat">
+            <div class="platform-stat-label">Month</div>
+            <div class="platform-stat-value">${sym}${monthlyTotal.toFixed(2)}</div>
+            <div class="platform-stat-label">${monthlyHours.toFixed(1)}h • ${monthlyEntries}e</div>
+          </div>
+          <div class="platform-stat">
+            <div class="platform-stat-label">Year</div>
+            <div class="platform-stat-value">${sym}${yearlyTotal.toFixed(2)}</div>
+            <div class="platform-stat-label">${yearlyHours.toFixed(1)}h • ${yearlyEntries}e</div>
+          </div>
+        </div>
+      </div>`;
+    });
+
+    container.innerHTML = html;
+  }
+
+  // ===== ADD ENTRY FUNC =====
   function addEntry() {
-    let shekels    = Number(document.getElementById('shekelsInput').value || 0);
+    let amount    = Number(document.getElementById('shekelsInput').value || 0);
+    let selectedCurrency = document.getElementById('entryCurrentCurrency').value;
+    
+    if (selectedCurrency !== data.defaultCurrency) {
+      amount = convertCurrency(amount, selectedCurrency, data.defaultCurrency);
+    }
+    
     let hours      = Number(document.getElementById('hoursInput').value   || 0);
     let minutes    = Number(document.getElementById('minutesInput').value || 0);
+    let platform   = document.getElementById('platformSelect').value || '';
     let totalHours = hours + minutes/60;
-
+    
     if (!data.entries[today]) data.entries[today] = {total:0, hours:0, count:0};
-    data.entries[today].total += shekels;
+    data.entries[today].total += amount;
     data.entries[today].hours += totalHours;
     data.entries[today].count += 1;
 
     const nowStr = new Date().toISOString();
+    if (!data.entryLog) data.entryLog = [];
+    data.entryLog.push({
+      amount: amount,
+      hours: hours,
+      minutes: minutes,
+      platform: platform,
+      timestamp: nowStr,
+      currency: data.defaultCurrency
+    });
+
     data.entries[today]._timestamp = nowStr;
-    lastEntryTimestamp = new Date();
-    document.getElementById('lastEntryDisplay').innerText = lastEntryTimestamp.toLocaleString();
+    lastEntryTimestamp = nowStr;
 
-    document.getElementById('lastEntryDisplay').innerText = lastEntryTimestamp.toLocaleString();
-
-    if (shekels > biggestEntryAmount) {
-      biggestEntryAmount = shekels;
-      document.getElementById('biggestEntry').innerText = `$${biggestEntryAmount.toFixed(2)}`;
+    if (amount > data.biggestSingleEntry) {
+      data.biggestSingleEntry = amount;
+      const sym = currencySymbols[data.defaultCurrency] || '$';
+      document.getElementById('biggestEntry').innerText = `${sym}${amount.toFixed(2)}`;
     }
+
+    triggerMoneyFall();
 
     document.getElementById('shekelsInput').value = '';
     document.getElementById('hoursInput').value   = '';
     document.getElementById('minutesInput').value = '';
+    document.getElementById('platformSelect').value = '';
+    document.getElementById('entryCurrentCurrency').value = data.defaultCurrency;
 
     updateAll();
   }
 
+  // ===== CALENDAR MONTH SELECTOR =====
+  function populateCalendarMonthSelector() {
+    const select = document.getElementById('calendarMonthSelect');
+    const now = new Date();
+    
+    select.innerHTML = '<option value="">Select Month...</option>';
+    
+    for (let i = 12; i >= 0; i--) {
+      const date = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      const monthName = date.toLocaleString('default', { month: 'long', year: 'numeric' });
+      const value = `${date.getFullYear()}-${String(date.getMonth()).padStart(2, '0')}`;
+      select.innerHTML += `<option value="${value}">${monthName}</option>`;
+    }
+  }
+
+  function changeCalendarMonth(value) {
+    if (!value) return;
+    const [year, month] = value.split('-').map(Number);
+    viewingYear = year;
+    viewingMonth = month;
+    updateCalendar();
+  }
+
+  // ===== UPDATES =====
   function updateAll() {
     updateDisplay();
     updateEntryCount();
@@ -791,8 +2442,11 @@
     updateChart();
     updateCalendar();
     updateCountdown();
+    updateEntryLogDisplay();
+    updatePlatformTotals();
+    populateCalendarMonthSelector();
     const gi = document.getElementById('goalInput');
-    if (gi) gi.value = data.goal || 700;
+    if (gi) gi.value = data.goal || 0;
   }
 
   function updateEntryCount() {
@@ -802,60 +2456,65 @@
   function updateDisplay() {
     let d   = data.entries[today] || {total:0, hours:0};
     let avg = d.hours > 0 ? d.total/d.hours : 0;
-    document.getElementById('todayTotal').innerText = '$'+d.total.toFixed(2);
-    document.getElementById('todayAvg').innerText   = '$'+avg.toFixed(2);
+    const sym = currencySymbols[data.defaultCurrency] || '$';
+    document.getElementById('todayTotal').innerText = `${sym}${d.total.toFixed(2)}`;
+    document.getElementById('todayAvg').innerText   = `${sym}${avg.toFixed(2)}`;
+    
+    let totalHours = Math.floor(d.hours);
+    let totalMinutes = Math.round((d.hours % 1) * 60);
+    document.getElementById('todayTime').innerText = `${totalHours}h ${totalMinutes}m`;
   }
 
   function updateMonthly() {
-    let monthly=0, yearly=0;
+    let monthly=0, yearly=0, monthlyCount=0, yearlyCount=0;
     let now=new Date(), year=now.getFullYear(), month=now.getMonth();
+    
     Object.entries(data.entries).forEach(([date,val]) => {
       let d = new Date(date+'T00:00:00');
       if (d.getFullYear()===year) {
         yearly += val.total;
-        if (d.getMonth()===month) monthly += val.total;
+        yearlyCount += val.count;
+        if (d.getMonth()===month) {
+          monthly += val.total;
+          monthlyCount += val.count;
+        }
       }
     });
-    document.getElementById('monthlyDisplay').innerText = '$'+monthly.toFixed(2);
-    document.getElementById('yearlyDisplay').innerText  = '$'+yearly.toFixed(2);
+
+    const sym = currencySymbols[data.defaultCurrency] || '$';
+    document.getElementById('monthlyDisplay').innerText = `${sym}${monthly.toFixed(2)}`;
+    document.getElementById('monthlyEntries').innerText = monthlyCount;
+    document.getElementById('yearlyDisplay').innerText  = `${sym}${yearly.toFixed(2)}`;
+    document.getElementById('yearlyEntries').innerText  = yearlyCount;
   }
 
   function updateProgress() {
     let total=0;
-
-    // FIX: only include current week (local)
-    let now = new Date();
-    let day = now.getDay();
-    let weekStart = new Date(now);
-    weekStart.setDate(now.getDate() - day);
-    weekStart.setHours(0,0,0,0);
-
-    Object.entries(data.entries).forEach(([date,val]) => {
-      let d = new Date(date + 'T00:00:00');
-      if (d >= weekStart && d <= now) {
-        total += val.total;
-      }
-    });
-
-    let goal      = Number(document.getElementById('goalInput').value||700);
+    Object.values(data.entries).forEach(v => total+=v.total);
+    let goal      = Number(document.getElementById('goalInput').value||0);
     data.goal     = goal;
-    let percent   = Math.min((total/goal)*100, 100);
+    let percent   = goal > 0 ? (total/goal)*100 : 0;
     let remaining = Math.max(goal-total, 0);
-    document.getElementById('progressBar').style.width = percent+'%';
+    document.getElementById('progressBar').style.width = Math.min(percent, 100)+'%';
     document.getElementById('progressBar').innerText   = percent.toFixed(0)+'%';
-    document.getElementById('progressText').innerText  = 'Earned This Week: $'+total.toFixed(2);
-    document.getElementById('remainingText').innerText = 'Remaining: $'+remaining.toFixed(2);
+    const sym = currencySymbols[data.defaultCurrency] || '$';
+    document.getElementById('progressText').innerText  = `Earned This Week: ${sym}${total.toFixed(2)}`;
+    document.getElementById('remainingText').innerText = `Remaining: ${sym}${remaining.toFixed(2)}`;
+    
+    if (goal > 0 && total >= goal && !goalReachedThisWeek) {
+      goalReachedThisWeek = true;
+      triggerFireworks();
+    } else if (goal > 0 && total < goal && goalReachedThisWeek) {
+      goalReachedThisWeek = false;
+    }
   }
 
   function updateCountdown() {
     let now  = new Date();
-
-    // FIX: correct next week boundary (Sunday)
-    let dTil = (7 - now.getDay()) % 7 || 7;
+    let dTil = (8-now.getDay())%7||7;
     let next = new Date(now);
-    next.setDate(now.getDate() + dTil);
+    next.setDate(now.getDate()+dTil);
     next.setHours(0,0,0,0);
-
     let diff=next-now, s=Math.floor(diff/1000);
     let d=Math.floor(s/86400); s%=86400;
     let h=Math.floor(s/3600);  s%=3600;
@@ -872,8 +2531,6 @@
     if (chartObj) chartObj.destroy();
     const ctx     = document.getElementById('chart').getContext('2d');
     const style   = getComputedStyle(document.body);
-    const accent  = style.getPropertyValue('--accent').trim()  || '#4facfe';
-    const accent2 = style.getPropertyValue('--accent2').trim() || '#00f2fe';
     const txtCol  = style.getPropertyValue('--text').trim()    || '#111';
 
     chartObj = new Chart(ctx, {
@@ -881,14 +2538,14 @@
       data: {
         labels: ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],
         datasets:[{
-          label: 'Shekels',
+          label: 'Earnings',
           data: values,
           fill: false,
-          borderColor: accent,
-          backgroundColor: accent,
+          borderColor: style.getPropertyValue('--accent').trim() || '#4facfe',
+          backgroundColor: style.getPropertyValue('--accent').trim() || '#4facfe',
           borderWidth: 2,
           tension: 0.4,
-          pointBackgroundColor: accent
+          pointBackgroundColor: style.getPropertyValue('--accent').trim() || '#4facfe'
         }]
       },
       options: {
@@ -906,61 +2563,99 @@
   function updateCalendar() {
     const cal = document.getElementById('calendar');
     cal.innerHTML = '';
-    let now=new Date(), year=now.getFullYear(), month=now.getMonth();
+    let year=viewingYear, month=viewingMonth;
     document.getElementById('calendarTitle').innerText =
-      'Calendar — '+now.toLocaleString('default',{month:'long'})+' '+year;
+      'Calendar — '+new Date(year, month).toLocaleString('default',{month:'long'})+' '+year;
     const firstDay    = new Date(year,month,1).getDay();
     const daysInMonth = new Date(year,month+1,0).getDate();
+    
     ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].forEach(h => {
       let div=document.createElement('div');
-      div.className='calendar-day calendar-header';
+      div.className='calendar-day calendar-header header';
       div.innerText=h;
       cal.appendChild(div);
     });
+    
     for (let i=0;i<firstDay;i++) cal.appendChild(document.createElement('div'));
+    
+    const sym = currencySymbols[data.defaultCurrency] || '$';
     for (let day=1;day<=daysInMonth;day++) {
-
-      // FIX: local date key instead of toISOString
-      let dateStr = formatLocalDate(new Date(year, month, day));
-
+      let dateStr=new Date(year,month,day).toISOString().split('T')[0];
       let div=document.createElement('div');
       div.className='calendar-day';
+      
       if (dateStr===today) div.classList.add('today-highlight');
+      
+      const monthDay = String(month+1).padStart(2,'0')+'-'+String(day).padStart(2,'0');
+      if (holidays[monthDay]) {
+        div.classList.add('holiday');
+      }
+      
       let e=data.entries[dateStr];
-      div.innerText=day+'\n$'+(e?.total||0).toFixed(2)+'\nH:'+(e?.hours?e.hours.toFixed(1):'0');
+      let content = day + '\n'+sym+(e?.total||0).toFixed(2)+'\nH:'+(e?.hours?e.hours.toFixed(1):'0');
+      if (holidays[monthDay]) {
+        content = day + '\n' + holidays[monthDay];
+      }
+      div.innerText = content;
+      
+      div.onclick = () => openReminderModal(dateStr);
       cal.appendChild(div);
     }
   }
 
+  // ===== INIT =====
   document.getElementById('goalInput').addEventListener('input', updateProgress);
   setInterval(updateCountdown, 1000);
-
-  const saved = localStorage.getItem('shekelsApp');
+  setInterval(checkReminders, 30000);
+  
+  initBorderColorSwatches();
+  initializeCurrencyRates();
+  
+  const saved = localStorage.getItem(getProfileKey('Default'));
   if (saved) {
     try {
       data = JSON.parse(saved);
+      if (!data.profileName) data.profileName = 'Default';
+      if (!data.enableAnimation) data.enableAnimation = true;
+      if (!data.reminders) data.reminders = [];
+      if (!data.platforms) data.platforms = [];
+      if (!data.defaultCurrency) data.defaultCurrency = 'USD';
+      if (!data.biggestSingleEntry) data.biggestSingleEntry = 0;
       applySettings();
+      applyBackgroundImage();
       restoreCardPositions();
-      biggestEntryAmount = 0;
+      changeCurrency(data.defaultCurrency);
+      
+      let biggestAmount = 0;
       lastEntryTimestamp = null;
-      Object.values(data.entries).forEach(entry => {
-        if (entry._timestamp) {
-          if (!lastEntryTimestamp || new Date(entry._timestamp) > new Date(lastEntryTimestamp))
-            lastEntryTimestamp = entry._timestamp;
-        }
-        if (entry.total > biggestEntryAmount) {
-          biggestEntryAmount = entry.total;
-        }
-      });
-      if (lastEntryTimestamp) {
-        document.getElementById('lastEntryDisplay').innerText = new Date(lastEntryTimestamp).toLocaleString();
-      } else {
-        document.getElementById('lastEntryDisplay').innerText = 'No entries yet.';
+      if (data.entryLog && Array.isArray(data.entryLog)) {
+        data.entryLog.forEach(entry => {
+          if (entry.timestamp) {
+            if (!lastEntryTimestamp || new Date(entry.timestamp) > new Date(lastEntryTimestamp))
+              lastEntryTimestamp = entry.timestamp;
+          }
+          if (entry.amount > biggestAmount) {
+            biggestAmount = entry.amount;
+          }
+        });
       }
-      document.getElementById('biggestEntry').innerText = `$${biggestEntryAmount.toFixed(2)}`;
+      data.biggestSingleEntry = biggestAmount;
+      const sym = currencySymbols[data.defaultCurrency] || '$';
+      document.getElementById('biggestEntry').innerText = `${sym}${biggestAmount.toFixed(2)}`;
+      
+      if (data.hiddenCards && Array.isArray(data.hiddenCards)) {
+        data.hiddenCards.forEach(cardId => {
+          const card = document.getElementById(cardId);
+          if (card) card.classList.add('hidden');
+        });
+      }
     } catch(e) {}
   }
+
+  resetAutosaveTimer();
+  updateMotivationalQuote();
   updateAll();
+  updateProfileSelect();
 </script>
 </body>
 </html>
